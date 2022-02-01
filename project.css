@@ -114,7 +114,6 @@ main p {
 }
 .container img {
     margin-top: 8px;
-    opacity: 0.8;
 }
 .container img:hover {
     opacity: 1;
