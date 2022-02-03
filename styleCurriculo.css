@@ -24,6 +24,7 @@ header img:hover {
 #menu ul {
     float: right;
     display: flex;
+    margin: -34px 0 0 0;
 
 }
 #menu ul li {
@@ -31,7 +32,7 @@ header img:hover {
     margin: 0 16px 0 0;
 
 }
-.logo {
+.logo a {
     display: inline-block;
     font-family: 'DM Mono';
     font-style: normal;
@@ -39,6 +40,7 @@ header img:hover {
     font-size: 24px;
     line-height: 31px;
     color: #1F272F;
+    text-decoration: none;
 }
 .btn1 { 
     width: 168px;
@@ -49,7 +51,7 @@ header img:hover {
     padding: 8px 16px;
     align-items: center;
     cursor: pointer;
-    font-family: 'DM Mono';
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -247,6 +249,7 @@ footer p {
     .container p {
         font-size: 18px;
         line-height: 24px;
+        text-align: left;
     }
     main {
         margin: 64px 64px 0 24px;
