@@ -1,2 +1,2 @@
 # vitor-gregorio
-https://vitorgregorio.digital
+http://vitorgregorio.digital
