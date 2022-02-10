@@ -1,2 +1,2 @@
 # vitor-gregorio
-https://vitorvitorgregorio.github.io/vitor-gregorio/
+https://vitorgregorio.digital
