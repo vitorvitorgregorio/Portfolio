@@ -1,55 +1,90 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta https-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/favico.png" type="image/x-icon">
-    <title>Vitor Gregorio | Front-End Developer</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title> Vitor Gregorio | Front-End Developer </title>
 </head>
 <body>
     <header>
-        <nav id="menu">
-            <h1 class="logo"> <a href="index.html">Vitor Gregorio</a></h1>
-            <ul>
-                <li>
-                    <a href="curriculo.html"> <button class="btn1"> Mais Sobre Mim </button> </a>
-                </li>
-                <li><a href="https://www.linkedin.com/in/vitor-gregorio/" target="_blank"> <img src="img/LinkedIN_white (2).svg" alt=""> </a></li>
-                <li><a href="https://github.com/vitorvitorgregorio" target="_blank"> <img src="img/Github_white.svg" alt=""> </a></li>
-            </ul>
+        <nav class="navbar navbar-expand menu fixed-top mb-4">
+            <div class="container mt-2 mb-2">
+                <a href="index.html" class="navbar-brand logo"> Vitor Gregorio </a>
+                <div class="navbar-nav">
+                    <a class=" nav-link btn btn-outline-dark btn-md button" href="sobre.html"> Mais sobre mim </a>
+                    <a class="nav-link ms-2" href="https://github.com/vitorvitorgregorio" target="_blank">
+                        <img src="img/Github_white.svg" alt="Github">
+                    </a>
+                    <a class="nav-link" href="https://www.linkedin.com/in/vitor-gregorio/" target="_blank">
+                        <img src="img/LinkedIN_white (2).svg" alt="">
+                    </a>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        <picture>
-            <source media="(max-width: 552px)" srcset="img/maozinha_mobile.svg">
-            <source media="(max-width: 1080px)" srcset="img/maozinha_tablet.svg">
-            <img src="img/maozinha.svg" alt="">
-        </picture>
-        <h2>Oi, tudo bem ?</h2>
-        <p>Me chamo Vitor, sou um Desenvolvedor Front-End ativo, versátil e entusiasta, que
-        está sempre em busca de um código limpo e aprender coisas novas, que se
-        relacionam - ou não - com tecnologia.</p>
+        <div class="container mt-4">
+            <img src="img/maozinha.svg" alt="" class="img-fluid">
+            <h2 class="texto mt-4">Me chamo <b> Vitor </b> , sou um Desenvolvedor Front-End ativo, versátil e entusiasta, que está sempre em busca de um código limpo e aprender coisas novas, que se relacionam - ou não - com tecnologia.</h2>
+        </div>
     </main>
-    <aside>
-        <h2>Projetos</h2>
-        <div id="card">
-            <div>
-            <a href="active-box.html"><img src="img/active-box.png" alt="">
-                <h3>Active Box</h3>
-                <p>HTML/CSS - 2021</p>
-            </a>
+    <div id="projects">
+        <div class="container">
+            <h3 class="mb-4"> Projetos </h3>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <a href="active-box.html" class="img-link">
+                        <div class="img-container">
+                            <img src="img/project.png" alt="" class="img-fluid mb-4">
+                            <h3> Active Box </h3>
+                            <p> HTML | CSS - 2021 </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <a href="meu-money.html" class="img-link img-link2">
+                        <div class="img-container">
+                            <img src="img/meuMoney.png" alt="" class="img-fluid mb-4">
+                            <h3> Meu Money </h3>
+                            <p> HTML | CSS | Bootstrap - 2022 </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <a href="forms.html" class="img-link img-link3">
+                        <div class="img-container">
+                            <img src="img/Forms.png" alt="" class="img-fluid mb-4">
+                            <h3> Forms </h3>
+                            <p> HTML | CSS | Javascript - 2022 </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <a href="webfarms.html" class="img-link img-link4">
+                        <div class="img-container">
+                            <img src="img/webfarms.png" alt="" class="img-fluid mb-4">
+                            <h3> WebFarms </h3>
+                            <p> HTML | CSS | Bootstrap - 2022 </p>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
-    </aside>
+    </div>
     <footer>
-        <div>
-            <h2>Contato</h2>
-            <p>+55 011 96432 - 9762</p>
+        <div class="container mt-4">
+            <h4>Contatos</h4>
+            <p>+55 11 940347392</p>
             <p>vitorvitorgregorio@gmail.com</p>
-            <p class="copy"> <span> <b>Vitor Gregorio</b> </span> Copyright 2022 &copy;</p>
+            <hr class="margin">
+            <p> Vitor Gregorio Copyright 2022 &copy; </p>
         </div>
     </footer>
+    <!--Javascript BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

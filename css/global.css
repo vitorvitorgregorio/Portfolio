@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+body, html {
+    font-family: 'DM Sans';
+}
+a {
+    text-decoration: none;
+    color: #1F272F;
+}
+
+/* MENU */
+.logo {
+    font-family: 'DM Mono';
+    color: #1F272F;
+    font-size: 24px;
+    font-weight: 500;
+}
+.logo:hover {
+    color: purple;
+}
+.logoDark {
+    color: #f8f8f8;
+}
+.button{
+    border: 2px solid #1F272F;
+    border-radius: 125px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #1F272F;
+    width: 168px;
+    font-family: 'DM Mono';
+    font-weight: 500;
+}
+.button:hover {
+    background-color: #1F272F;
+    color: #F8F8F8;
+}
+.btnDark {
+    border: 2px solid #f8f8f8;
+    color: #f8f8f8;
+}
+.btnDark:hover {
+    background-color: #f8f8f8;
+    color: #1F272F;
+}
+.menu {
+    background-color: #F8F8F8;
+}
+.menu img {
+    background-color: #e1e1e1;
+    border-radius: 16px;
+    opacity: 0.8;
+}
+.menu img:hover {
+    opacity: 1;
+}
+.icone-sol {
+    border: none;
+    border-radius: 50%;
+    padding: 8px 4px;
+    background-color: transparent;
+}
+.icone-sol img {
+    background-color: transparent;
+}
+/*MENU END*/
+footer {
+    border: 1px solid #e1e1e1;
+    margin-top: 100px;
+    background-color: #f8f8f8;
+}
+.margin {
+    margin-top: 60px;
+}
